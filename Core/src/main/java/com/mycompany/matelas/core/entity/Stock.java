@@ -4,6 +4,7 @@
  */
 package com.mycompany.matelas.core.entity;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
@@ -12,7 +13,7 @@ import java.util.HashSet;
  */
 public class Stock {
     
-     public HashSet<Matelas> stock = new HashSet();
+     public ArrayList<Matelas> stock = new ArrayList();
      
      public Stock(){
          
